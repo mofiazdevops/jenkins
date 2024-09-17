@@ -1,0 +1,12 @@
+version: "3.3"
+services:
+  web:
+    build: tecengineer/fiaz-image:v1 
+    ports:
+      - "8000:8000"
+    # Optionally, you can add more configurations like volumes, environment variables, etc.
+    # environment:
+    #   - NODE_ENV=development
+    # volumes:
+    #   - ./app:/usr/src/app
+    #   - /usr/src/app/node_modules
